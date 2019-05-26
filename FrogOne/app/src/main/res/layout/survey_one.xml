@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/fragmentColor"
+    android:orientation="horizontal"
+    tools:context=".SurveyOne">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/fragment_header_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_small"
+            android:text="@string/survey_one"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_wide">
+
+            <RadioButton
+                android:id="@+id/radio_button_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yes_text"/>
+
+            <RadioButton
+                android:id="@+id/radio_button_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_text"/>
+
+        </RadioGroup>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/fragment_header_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_small"
+            android:text="@string/survey_two"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_std"
+            android:numStars="6"
+            android:stepSize="0.5"
+            android:rating="1"
+            android:isIndicator="false"
+            style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"/>
+
+    </TableRow>
+
+</TableLayout>
