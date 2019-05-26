@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FrogOne</string>
+    <string name="title_one">croaking in shadow</string>
+    <string name="article_one">
+        This simple article presents a demo that serves to train small frogs;
+        if so we can define the devices we carry in our pockets or bags.
+        The main repository will host a series of small projects that will help you learn
+        the various programming techniques for Android. A magnificent reality with a free heart.
+    </string>
+    <string name="yes_text">Yes</string>
+    <string name="no_text">No</string>
+    <string name="yes_message">I like it</string>
+    <string name="no_message">Thanks anyway</string>
+    <string name="rating_message">Your rating</string>
+    <string name="survey_one">Do you like this idea?</string>
+    <string name="survey_two">How much do you like?</string>
+    <string name="image_description">sample squares</string>
+    <string name="open_text">Open Survey</string>
+    <string name="close_text">Close Survey</string>
+</resources>
