@@ -1,2 +1,2 @@
 # frog-trainee
-Android demo
+Demo application group for Android
