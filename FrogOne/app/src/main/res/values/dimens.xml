@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_std">8dp</dimen>
+    <dimen name="margin_wide">16dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_std">8dp</dimen>
+    <dimen name="padding_wide">16dp</dimen>
+    <dimen name="left_margin">32dp</dimen>
+    <dimen name="top_margin">256dp</dimen>
+</resources>
