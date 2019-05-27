@@ -58,15 +58,22 @@
 
     </ScrollView>
 
-    <fragment
-        android:id="@+id/fragment"
-        android:name="local.example.frog.SurveyOne"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:id="@+id/action_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout="@layout/survey_one"/>
+        app:layout_constraintTop_toTopOf="parent">
+
+        <fragment
+            android:id="@+id/fragment"
+            android:name="local.example.frog.SurveyOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/survey_one"/>
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/button_survey"
