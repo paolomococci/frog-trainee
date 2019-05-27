@@ -55,6 +55,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/padding_small"
             android:text="@string/survey_two"
+            android:visibility="invisible"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
 
     </TableRow>
@@ -70,6 +71,7 @@
             android:stepSize="0.5"
             android:rating="1"
             android:isIndicator="false"
+            android:visibility="invisible"
             style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"/>
 
     </TableRow>
