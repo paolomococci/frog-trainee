@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FrogTwo</string>
+    <string name="title_song_detail">Article detail</string>
+    <string name="article_title">Sample title of article</string>
+    <string name="article_subtitle">Sample sub-title of article</string>
+    <string name="special_folder_image_description">special folder</string>
+</resources>
