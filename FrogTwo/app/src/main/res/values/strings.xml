@@ -3,5 +3,5 @@
     <string name="title_song_detail">Article detail</string>
     <string name="article_title">Sample title of article</string>
     <string name="article_subtitle">Sample sub-title of article</string>
-    <string name="special_folder_image_description">special folder</string>
+    <string name="image_description">box</string>
 </resources>
