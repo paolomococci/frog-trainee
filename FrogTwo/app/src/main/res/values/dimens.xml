@@ -2,6 +2,6 @@
 <resources>
     <dimen name="width_item">200dp</dimen>
     <dimen name="margin_text">16dp</dimen>
-    <dimen name="margin_standard">16dp</dimen>
-    <dimen name="padding_regular">10dp</dimen>
+    <dimen name="margin_std">16dp</dimen>
+    <dimen name="padding_std">10dp</dimen>
 </resources>
