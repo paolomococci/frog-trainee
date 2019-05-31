@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FrogTwo</string>
-    <string name="title_song_detail">Article detail</string>
-    <string name="article_title">Sample title of article</string>
-    <string name="article_subtitle">Sample sub-title of article</string>
-    <string name="image_description">box</string>
+    <string name="title_header">article detail</string>
+    <string name="article_title">article title one</string>
+    <string name="article_subtitle">article sub-title</string>
+    <string name="box_image_description">description of sample box</string>
 </resources>
