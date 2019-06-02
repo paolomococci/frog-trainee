@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FrogFour - list of sensors</string>
+    <string name="default_text">waiting</string>
+    <string name="header_text">List of sensors:</string>
+</resources>
