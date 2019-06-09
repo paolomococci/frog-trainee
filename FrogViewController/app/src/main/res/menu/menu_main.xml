@@ -5,9 +5,18 @@
     tools:context="local.example.frog.MainActivity">
 
     <item
-        android:id="@+id/default_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/option_n_3"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/option_n_5"
+        android:orderInCategory="5"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/option_n_7"
+        android:orderInCategory="7"
         app:showAsAction="never"/>
 
 </menu>
