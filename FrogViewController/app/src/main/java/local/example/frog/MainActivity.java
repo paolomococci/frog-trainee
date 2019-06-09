@@ -30,13 +30,18 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity 
+import local.example.frog.view.KnobView;
+
+public class MainActivity
         extends AppCompatActivity {
+
+    KnobView knobView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        knobView = findViewById(R.id.knob_view);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -61,10 +66,8 @@ public class MainActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.default_settings) {
-            return true;
-        }
+        int n = item.getOrder();
+        knobView.setPositionCount(n);
         return super.onOptionsItemSelected(item);
     }
 }
